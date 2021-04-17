@@ -32,7 +32,7 @@ public class RestDemoController {
 	
 	@ApiOperation(value = "Listar Personas", 
 				 produces = "application/json",
-    			 notes = "Lista todas las Personas del modelo",
+    			 notes = "Lista todas las Personas del Modelo",
     			 tags = { "Persona" })
 	@ApiResponses(value = {
             @ApiResponse(code = 200, message = "OK. El recurso se obtiene correctamente",
